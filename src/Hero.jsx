@@ -56,7 +56,7 @@ export default function Hero() {
 						href="https://calendly.com/rayan-dabbagh/sentinel-demo?month=2025-06"
 						target="_blank"
 						rel="noopener noreferrer"
-						className="bg-white text-black text-[15px] font-[410] h-[40px] py-[6px] px-[17px] rounded-[10px] transition-[border,background-color,color,box-shadow,opacity,filter,transform] duration-[.16s] ease-[var(--ease-out-quad)] hover:bg-gray-200"
+						className="bg-white text-black text-[13px] font-[410] py-[6px] px-[13px] rounded-[8px] hover:bg-gray-200 transition"
 					>
 						Book a demo
 					</a>
