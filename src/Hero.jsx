@@ -22,9 +22,14 @@ export default function Hero() {
 						>
 							Features
 						</a>
-						<button className="bg-white text-black text-[13px] font-[410] px-4 py-1.5 rounded-md hover:bg-gray-200 transition">
+						<a
+							href="https://calendly.com/rayan-dabbagh/sentinel-demo?month=2025-06"
+							target="_blank"
+							rel="noopener noreferrer"
+							className="bg-white text-black text-[13px] font-[410] px-4 py-1.5 rounded-md hover:bg-gray-200 transition"
+						>
 							Book a demo
-						</button>
+						</a>
 					</nav>
 				</div>
 			</header>
@@ -41,19 +46,24 @@ export default function Hero() {
 				</h1>
 
 				<p className="text-white/70 text-base md:text-xl mt-6 max-w-[45rem] font-[310] leading-[1.33] tracking-[-0.012em]">
-					Legacy security sucks: It makes you feel safe, but the data shows you're not. <br />
-					Sentinel sees, reasons, and acts faster than any human guard — with human precision never
+					Legacy security sucks: It makes you feel safe, but crime data shows you're not. <br />
+					Sentinel sees, reasons, and acts faster than any human guard — with human precision never before
 					possible at scale.
 				</p>
 
 				<div className="flex flex-col sm:flex-row items-center gap-4 mt-10">
-					<button className="bg-white text-black text-[15px] font-[410] h-[40px] px-[16px] rounded-[10px] transition-[border,background-color,color,box-shadow,opacity,filter,transform] duration-[.16s] ease-[var(--ease-out-quad)] hover:bg-gray-200">
+					<a
+						href="https://calendly.com/rayan-dabbagh/sentinel-demo?month=2025-06"
+						target="_blank"
+						rel="noopener noreferrer"
+						className="inline-flex items-center justify-center bg-white text-black text-[15px] font-[410] h-[40px] px-[16px] rounded-[10px] transition-[border,background-color,color,box-shadow,opacity,filter,transform] duration-[.16s] ease-[var(--ease-out-quad)] hover:bg-gray-200"
+					>
 						Book a demo
-					</button>
+					</a>
 
 					<button className="text-[15px] transition-[border,background-color,color,box-shadow,opacity,filter,transform] duration-[.16s] ease-[var(--ease-out-quad)] flex items-center gap-1 rounded-[10px] px-[16px] h-[40px] hover:bg-[#1A1D24]">
 						<span className="bg-gradient-to-r from-white to-[#8A8F98] bg-clip-text text-transparent">
-							Built for Homes and Businesses
+						20+ deployments in homes, offices, and stores
 						</span>
 						<ChevronRight className="w-4 h-4 text-[#8A8F98]" />
 					</button>
