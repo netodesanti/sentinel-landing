@@ -46,9 +46,8 @@ export default function Hero() {
 				</h1>
 
 				<p className="text-white/70 text-[1.3125rem] mt-6 max-w-[70%] font-[400] leading-[1.33] tracking-[-0.0012em]">
-					Legacy security sucks: It makes you feel safe, but the data shows you're not. Sentinel
-					sees, reasons, and acts faster than any human guard — with human precision never possible
-					at scale.
+					Legacy security sucks: It makes you feel safe, but the data proves you're not. Sentinel
+					sees, reasons, and acts faster than any human guard — with human precision, now possible at scale.
 				</p>
 
 				<div className="flex flex-col sm:flex-row items-center gap-4 mt-10">
