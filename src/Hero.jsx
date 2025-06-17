@@ -15,10 +15,10 @@ export default function Hero() {
 							className="h-5"
 						/>
 					</div>
-					<nav className="flex items-center gap-3">
+					<nav className="flex items-center gap-2">
 						<a
 							href="#features"
-							className="text-[13px] font-[410] text-[#8A8F98] transition-[border,background-color,color,box-shadow,opacity,filter,transform] duration-[.16s] ease-[var(--ease-out-quad)] flex items-center gap-1 rounded-md px-4 py-1.5 hover:bg-[#1A1D24]"
+							className="text-[13px] font-[410] text-[#8A8F98] transition-[border,background-color,color,box-shadow,opacity,filter,transform] duration-[.16s] ease-[var(--ease-out-quad)] flex items-center gap-1 py-[6px] px-[13px] rounded-[8px] hover:bg-[#1A1D24]"
 						>
 							Features
 						</a>
@@ -26,7 +26,7 @@ export default function Hero() {
 							href="https://calendly.com/rayan-dabbagh/sentinel-demo?month=2025-06"
 							target="_blank"
 							rel="noopener noreferrer"
-							className="bg-white text-black text-[13px] font-[410] px-4 py-1.5 rounded-md hover:bg-gray-200 transition"
+							className="bg-white text-black text-[13px] font-[410] py-[6px] px-[13px] rounded-[8px] hover:bg-gray-200 transition"
 						>
 							Book a demo
 						</a>
@@ -39,16 +39,16 @@ export default function Hero() {
 					Built for homes and businesses
 				</div>
 
-				<h1 className="text-4xl md:text-[56px] font-[438] leading-[1.1] tracking-[-0.02em] [font-variation-settings:'opsz'_28]">
+				<h1 className="text-4xl md:text-[56px] font-[510] leading-[1.1] tracking-[-0.03em] [font-variation-settings:'opsz'_28]">
 					Turn any camera into an AI
 					<br className="hidden md:block" />
 					security guard you can talk to.
 				</h1>
 
-				<p className="text-white/70 text-base md:text-xl mt-6 max-w-[45rem] font-[310] leading-[1.33] tracking-[-0.012em]">
-					Legacy security sucks: It makes you feel safe, but crime data shows you're not. <br />
-					Sentinel sees, reasons, and acts faster than any human guard — with human precision never before
-					possible at scale.
+				<p className="text-white/70 text-[1.3125rem] mt-6 max-w-[70%] font-[400] leading-[1.33] tracking-[-0.0012em]">
+					Legacy security sucks: It makes you feel safe, but the data shows you're not. Sentinel
+					sees, reasons, and acts faster than any human guard — with human precision never possible
+					at scale.
 				</p>
 
 				<div className="flex flex-col sm:flex-row items-center gap-4 mt-10">
@@ -56,14 +56,14 @@ export default function Hero() {
 						href="https://calendly.com/rayan-dabbagh/sentinel-demo?month=2025-06"
 						target="_blank"
 						rel="noopener noreferrer"
-						className="inline-flex items-center justify-center bg-white text-black text-[15px] font-[410] h-[40px] px-[16px] rounded-[10px] transition-[border,background-color,color,box-shadow,opacity,filter,transform] duration-[.16s] ease-[var(--ease-out-quad)] hover:bg-gray-200"
+						className="bg-white text-black text-[15px] font-[410] h-[40px] py-[6px] px-[17px] rounded-[10px] transition-[border,background-color,color,box-shadow,opacity,filter,transform] duration-[.16s] ease-[var(--ease-out-quad)] hover:bg-gray-200"
 					>
 						Book a demo
 					</a>
 
-					<button className="text-[15px] transition-[border,background-color,color,box-shadow,opacity,filter,transform] duration-[.16s] ease-[var(--ease-out-quad)] flex items-center gap-1 rounded-[10px] px-[16px] h-[40px] hover:bg-[#1A1D24]">
+					<button className="text-[15px] transition-[border,background-color,color,box-shadow,opacity,filter,transform] duration-[.16s] ease-[var(--ease-out-quad)] flex items-center gap-1 rounded-[8px] py-[6px] px-[13px] h-[40px] hover:bg-[#1A1D24]">
 						<span className="bg-gradient-to-r from-white to-[#8A8F98] bg-clip-text text-transparent">
-						20+ deployments in homes, offices, and stores
+							20+ deployments across homes and businesses
 						</span>
 						<ChevronRight className="w-4 h-4 text-[#8A8F98]" />
 					</button>
@@ -83,7 +83,7 @@ export default function Hero() {
 						<div className="absolute inset-0 border border-[#181A24] rounded-2xl [mask-image:linear-gradient(to_left,transparent_0%,#020817_10%)]" />
 					</div>
 				</div>
-				<div className="absolute bottom-0 left-0 right-0 h-[200px] bg-gradient-to-b from-transparent from-[0%] via-[rgb(2,8,23,0.95)] via-[70%] to-[rgb(2,8,23)] z-0"></div>
+				<div className="absolute bottom-0 left-0 right-0 h-[200px] bg-gradient-to-b from-transparent from-[0%] via-[rgb(2,8,23,0.95)] via-[60%] to-[rgb(2,8,23)] z-0"></div>
 			</div>
 		</div>
 	);
