@@ -15,12 +15,24 @@ export default function Hero() {
 							className="h-5"
 						/>
 					</div>
+					
 					<nav className="flex items-center gap-2">
 						<a
 							href="#features"
 							className="text-[13px] font-[410] text-[#8A8F98] transition-[border,background-color,color,box-shadow,opacity,filter,transform] duration-[.16s] ease-[var(--ease-out-quad)] flex items-center gap-1 py-[6px] px-[13px] rounded-[8px] hover:bg-[#1A1D24]"
 						>
 							Features
+						</a>
+					</nav>
+
+					<nav className="flex items-center gap-2">
+						<a
+							href="https://app.joinsentinel.com"
+							target="_blank"
+							rel="noopener noreferrer"
+							className="text-[13px] font-[410] text-[#8A8F98] transition-[border,background-color,color,box-shadow,opacity,filter,transform] duration-[.16s] ease-[var(--ease-out-quad)] flex items-center gap-1 py-[6px] px-[13px] rounded-[8px] hover:bg-[#1A1D24]"
+						>
+							Log in
 						</a>
 						<a
 							href="https://calendly.com/rayan-dabbagh/sentinel-demo?month=2025-06"
